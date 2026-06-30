@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0070/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5g0070/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 六根歸道論
+  date: '2015-08-29 02:53:42.040717'
+  source:
+    repository: kanripo
+    path: KR5g0070
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0070_000-HFL.yaml, hash: 'sha256:c4bb23dd0b95247726e5f0b038070de8e35c30a2b36506e8ce3fab461911fcd6'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0070_000-HFL.markers.yaml, hash: 'sha256:350b865e96725ade46c682b2495558e23b8dba384bad427cfadc4a14051fac04'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0070_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 733
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:c8778193a7ca13623ac280b32ca7f399b5f29047903208593c828fadbbe0865d
